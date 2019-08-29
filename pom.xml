@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.ysq.example</groupId>
-    <artifactId>spring-cloud-eureka</artifactId>
+    <artifactId>spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>spring-cloud-eureka</name>
@@ -34,6 +34,9 @@
 
     <modules>
         <module>spring-cloud-eureka-server</module>
+        <module>spring-cloud-eureka-provider1</module>
+        <module>spring-cloud-eureka-provider2</module>
+        <module>spring-cloud-eureka-provider3</module>
     </modules>
 
 </project>

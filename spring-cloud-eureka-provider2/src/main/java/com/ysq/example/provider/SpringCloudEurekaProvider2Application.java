@@ -7,10 +7,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @SpringBootApplication
 @EnableEurekaClient
-public class SpringCloudEurekaProviderApplication {
+public class SpringCloudEurekaProvider2Application {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringCloudEurekaProviderApplication.class, args);
+		SpringApplication.run(SpringCloudEurekaProvider2Application.class, args);
 	}
 
 	@RequestMapping("/")

@@ -4,13 +4,13 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.ysq.example</groupId>
-        <artifactId>spring-cloud-eureka</artifactId>
+        <artifactId>spring-cloud</artifactId>
         <version>0.0.1-SNAPSHOT</version>
     </parent>
-    <artifactId>spring-cloud-eureka-provider</artifactId>
+    <artifactId>spring-cloud-eureka-provider2</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>spring-cloud-eureka-provider</name>
-    <description>Demo project for Spring Cloud Eureka Provider</description>
+    <name>spring-cloud-eureka-provider2</name>
+    <description>Demo project for Spring Cloud Eureka Provider2</description>
 
     <properties>
         <java.version>1.8</java.version>
