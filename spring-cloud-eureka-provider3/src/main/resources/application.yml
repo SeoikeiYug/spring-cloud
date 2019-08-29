@@ -5,7 +5,7 @@ eureka:
 
 spring:
   application:
-    name: eureka-provider3
+    name: eureka-provider
 
 server:
   port: 8083
