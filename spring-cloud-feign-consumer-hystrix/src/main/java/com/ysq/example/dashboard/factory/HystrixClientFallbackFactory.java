@@ -1,6 +1,6 @@
-package com.ysq.example.consumerhystrix.factory;
+package com.ysq.example.dashboard.factory;
 
-import com.ysq.example.consumerhystrix.service.IndexClientService;
+import com.ysq.example.dashboard.service.IndexClientService;
 import feign.hystrix.FallbackFactory;
 
 public class HystrixClientFallbackFactory implements FallbackFactory<IndexClientService> {

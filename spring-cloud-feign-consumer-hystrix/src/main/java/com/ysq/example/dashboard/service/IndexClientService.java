@@ -1,6 +1,6 @@
-package com.ysq.example.consumerhystrix.service;
+package com.ysq.example.dashboard.service;
 
-import com.ysq.example.consumerhystrix.factory.HystrixClientFallbackFactory;
+import com.ysq.example.dashboard.factory.HystrixClientFallbackFactory;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 

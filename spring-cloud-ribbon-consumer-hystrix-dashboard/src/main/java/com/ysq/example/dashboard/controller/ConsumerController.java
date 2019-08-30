@@ -1,4 +1,4 @@
-package com.ysq.example.consumerhystrix.Controller;
+package com.ysq.example.dashboard.controller;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
 import org.springframework.beans.factory.annotation.Autowired;

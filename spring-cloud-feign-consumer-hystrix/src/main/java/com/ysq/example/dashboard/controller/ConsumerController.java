@@ -1,6 +1,6 @@
-package com.ysq.example.consumerhystrix.controller;
+package com.ysq.example.dashboard.controller;
 
-import com.ysq.example.consumerhystrix.service.IndexClientService;
+import com.ysq.example.dashboard.service.IndexClientService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
