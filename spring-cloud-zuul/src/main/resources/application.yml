@@ -1,0 +1,23 @@
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
+
+spring:
+  application:
+    name: zuul-service
+
+server:
+  port: 9000
+
+#zuul:
+#  routes:
+#    blog:
+#      path: /ysq/**
+#      url: https://www.baidu.com
+
+zuul:
+  routes:
+    api:
+      path: /**
+      serviceId: eureka-provider
