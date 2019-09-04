@@ -55,6 +55,7 @@
         <module>spring-cloud-ribbon-consumer-hystrix-dashboard</module>
         <module>spring-cloud-feign-consumer</module>
         <module>spring-cloud-feign-consumer-hystrix</module>
+        <module>spring-cloud-feign-consumer-hystrix-dashboard</module>
     </modules>
 
 </project>
